@@ -1,0 +1,5 @@
+{
+  "statusUrl": "dummy-service/temperature/status.json",
+  "onUrl": "dummy-service/temperature/on.json",
+  "offUrl": "dummy-service/temperature/off.json"
+}

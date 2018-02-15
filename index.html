@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Home Automation Simulator</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+
+    <script src="js/house-automation-simulator.js"></script>
+</head>
+
+<body>
+<h1>Home Automation Simulator</h1>
+
+<main>
+
+    <input id="tab1" type="radio" class="tab_input" name="tabs" data-component="light" checked>
+    <label for="tab1">Light</label>
+
+    <input id="tab2" type="radio" class="tab_input" name="tabs" data-component="temperature">
+    <label for="tab2">Temperature</label>
+
+    <input id="tab3" type="radio" class="tab_input" name="tabs" data-component="curtains">
+    <label for="tab3">Curtains</label>
+
+
+    <section id="tab1-content"></section>
+    <section id="tab2-content"></section>
+    <section id="tab3-content"></section>
+
+
+</main>
+</body>
+</html>

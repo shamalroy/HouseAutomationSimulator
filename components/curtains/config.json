@@ -1,0 +1,5 @@
+{
+  "statusUrl": "dummy-service/curtains/status.json",
+  "onUrl": "dummy-service/curtains/on.json",
+  "offUrl": "dummy-service/curtains/off.json"
+}
